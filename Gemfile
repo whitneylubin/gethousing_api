@@ -30,7 +30,7 @@ group :development, :test do
   gem 'pg'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 # gems that will only be used in development mode
@@ -52,7 +52,6 @@ group :test do
 end
 
 group :production do
-  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
