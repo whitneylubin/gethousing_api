@@ -51,10 +51,6 @@ group :test do
 end
 
 group :production do
-<<<<<<< HEAD
-=======
-
->>>>>>> a640670e036b4a80ae8382508d6adb6307e7921f
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
