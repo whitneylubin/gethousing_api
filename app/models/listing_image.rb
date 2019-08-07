@@ -1,2 +1,0 @@
-class ListingImage < ApplicationRecord
-end
